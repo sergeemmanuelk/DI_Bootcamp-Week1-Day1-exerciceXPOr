@@ -40,7 +40,7 @@ li:last-child a {
 }
 
 .hero {
-    background-image: url('images/sea.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/sea.jpg');
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -57,8 +57,10 @@ li:last-child a {
 .hero-content {
     position: absolute;
     top: 50%;
-    width: 100%;
     text-align: center;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
 }
 
 .hero-text {
