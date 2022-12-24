@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    margin: 0 100px;
+}
+
+.menu {
+    padding: 10px 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 10px 15px;
+    font-size: 16px;
+}
+
+li:last-child a {
+    color: #fff;
+    background-color: #0d6efd;
+    border-radius: 5px;
+}
+
+.hero {
+    background-image: url('images/sea.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 400px;
+    position: relative;
+}
+
+.signup {
+    color: #fff;
+    background-color: #0d6efd;
+    border-radius: 5px;
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
+
+.hero-text {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+input[type=text] {
+    padding: 10px 5px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #0d6efd;
+    border: none;
+    color: #fff;
+    padding: 12px 30px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.features {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.features .features-box{
+    display: inline-block;
+    text-align: center;
+}
+
+.features-box {
+    width: 300px;
+    padding: 20px 15px;
+}
+
+.features-box i {
+    font-size: 40px;
+    color: #0d6efd;
+}
+
+.features-box h3 {
+    color: #0d6efd;
+    margin-top: 20px;
+}
+
+.features-box p {
+    color: #b5b5b5;
+    margin-top: 20px;
+}
